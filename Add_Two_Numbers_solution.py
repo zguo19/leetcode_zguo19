@@ -1,8 +1,3 @@
-# Definition for singly-linked list.
-# class ListNode(object):
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
 # 2. Add Two Numbers
 #You are given two non-empty linked lists representing two non-negative integers. 
 # The digits are stored in reverse order and each of their nodes contain a single digit. 
@@ -14,8 +9,11 @@
 #Output: 7 -> 0 -> 8
 #Explanation: 342 + 465 = 807.
 
-
-
+# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
 
 class Solution(object):
     def addTwoNumbers(self, l1, l2):
